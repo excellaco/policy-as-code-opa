@@ -1,0 +1,11 @@
+# Ignore Docker images
+*.tar
+*.tgz
+
+# Ignore build directories
+node_modules/
+dist/
+
+# Ignore OPA configuration files or sensitive data
+opa_config.yaml
+data/
