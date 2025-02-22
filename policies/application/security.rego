@@ -20,5 +20,5 @@ allow {
 
 # Deny all other requests
 deny {
-    not allow
+    count(allow) == 0
 }
